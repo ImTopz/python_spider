@@ -46,7 +46,7 @@ def login(ac,pwd):
 def get_grade(xh,sy=""):
     params = {
         "method": "getCjcx",
-        "xh": "202001061028",
+        "xh": xh,
         "xnxqid": sy
     }
     session=requests.session()
